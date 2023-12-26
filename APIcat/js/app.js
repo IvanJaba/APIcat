@@ -1,6 +1,6 @@
 const button = document.querySelector(".btn");
 const image = document.querySelector(".img");
-const apiUrl = "https://api.thecatapi.com/v1/images/search?limit=10";
+const apiUrl = "https://api.thecatapi.com/v1/images/search?limit=1";
 const apiKey = "live_I86veglV2282H2eGwxFdJWUR2tmg1QZUQdRrqIBFT10pKbTXFyoOz9JgNdYoWtUU";
 
 async function fetchHandler() {
